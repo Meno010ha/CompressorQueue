@@ -23,7 +23,7 @@ async def up(event):
     ed = dt.now()
     v = ts(int((ed - uptime).seconds) * 1000)
     ms = (ed - stt).microseconds / 1000
-    p = f"🌋Pɪɴɢ = {ms}ms"
+    p = f"🖕Pɪɴɢ = {ms}ms"
     await event.reply(v + "\n" + p)
 
 
@@ -33,8 +33,8 @@ async def start(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("Main Channel", url="@AnimeLowMb"),
+                Button.url("DEVELOPER", url="t.me/akgkmightbot"),
             ],
         ],
     )
